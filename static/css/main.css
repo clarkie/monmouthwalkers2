@@ -27,42 +27,6 @@ section {
   border-color: #a0372c;
 }
 
-.header {
-  height: 50vh;
-  min-height: 300px;
-  background: url("/images/pen-y-crug.jpg") center center no-repeat scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  font-family: "Dosis", sans-serif;
-}
-
-@media (max-width: 992px) {
-  .header {
-    background-position: bottom right;
-  }
-}
-
-.header .background-mask {
-  position: relative;
-  left: 0px;
-  top: 0%;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.33);
-}
-
-.header h1,
-.header h3 {
-  text-transform: uppercase;
-  font-weight: bold;
-  line-height: 0.9;
-}
-.header h3 {
-  border-top: 1px solid #fff;
-}
-
 .card {
   height: 100%;
 }
