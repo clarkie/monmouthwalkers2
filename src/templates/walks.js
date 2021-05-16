@@ -3,15 +3,13 @@ import { Link } from "gatsby"
 
 import styled from "styled-components"
 import Layout from "../components/layout"
+import { WalkInfo } from "../components/walkInfo"
 import { Container, Row, Col } from "react-bootstrap"
 
 import badge from "../images/badge.png"
 
 const WalkLink = styled(Link)`
   color: #963027;
-`
-const WalkSubheader = styled(Row)`
-  color: #666;
 `
 
 const WalkListContainer = styled(Row)`
@@ -27,10 +25,7 @@ const WalkListItem = ({ id, title, slug, distance, totalClimb, extraInfo }) => (
           Walk No {id} - {title}
         </WalkLink>
       </Row>
-      <WalkSubheader>
-        {distance} miles long and a total climb of {totalClimb}ft.{" "}
-        {extraInfo ? extraInfo : null}
-      </WalkSubheader>
+      <WalkInfo {...{ distance, totalClimb, extraInfo }} />
     </Container>
   </WalkListContainer>
 )

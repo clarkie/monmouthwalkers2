@@ -3,7 +3,13 @@ import { Container, Nav, Navbar } from "react-bootstrap"
 
 export const Menu = () => {
   return (
-    <Navbar bg="dark" fixed="top" collapseOnSelect="" expand="lg">
+    <Navbar
+      bg="dark"
+      variant="dark"
+      fixed="top"
+      collapseOnSelect=""
+      expand="lg"
+    >
       <Container>
         <Navbar.Brand href="#top">
           <img src="/images/welsh_dragon-simple.svg" alt="Welsh Dragon" />
