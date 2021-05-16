@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 // import { useStaticQuery, graphql } from "gatsby"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Menu } from "./menu"
+import "./main.css"
 
 const Layout = ({ children }) => {
   // const data = useStaticQuery(graphql`
@@ -118,11 +119,7 @@ const Layout = ({ children }) => {
           href="https://fonts.googleapis.com/css?family=Dosis|PT+Sans"
           rel="stylesheet"
         />
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="vendor/lightbox/ekko-lightbox.css" rel="stylesheet" />
-
-        {/* <!-- Custom styles for this template --> */}
-        <link href="css/main.css" rel="stylesheet" />
+        <link href="/vendor/lightbox/ekko-lightbox.css" rel="stylesheet" />
 
         <div id="fb-root"></div>
         <script
