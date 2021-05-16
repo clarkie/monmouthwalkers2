@@ -149,6 +149,14 @@ const Layout = ({ children }) => {
 
         {children}
       </body>
+
+      <footer class="py-5 bg-dark">
+        <div class="container">
+          <p class="m-0 text-center text-white">
+            Copyright &copy; Monmouth Rambling and Hillwalking Club 2018
+          </p>
+        </div>
+      </footer>
     </html>
   )
 }
