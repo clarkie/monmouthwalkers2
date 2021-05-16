@@ -6,7 +6,7 @@ export const Menu = () => {
     <Navbar bg="dark" fixed="top" collapseOnSelect="" expand="lg">
       <Container>
         <Navbar.Brand href="#top">
-          <img src="/images/welsh_dragon-simple.svg" />
+          <img src="/images/welsh_dragon-simple.svg" alt="Welsh Dragon" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse
