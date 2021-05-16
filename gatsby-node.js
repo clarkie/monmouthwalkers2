@@ -7,7 +7,7 @@
 // You can delete this file if you're not using it
 
 const fs = require(`fs`)
-const walks = require("./content/walks")
+const walks = require("./content/walks")()
 
 exports.createPages = ({ actions }) => {
   const { createPage } = actions

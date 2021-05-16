@@ -1,4 +1,4 @@
-module.exports = [
+module.exports = () => [
   {
     id: 1,
     title: "Monmouth to Wonastow and Lady Grove Wood",
@@ -6,6 +6,9 @@ module.exports = [
     distance: 4.5,
     totalClimb: 450,
     extraInfo: "Several Stiles",
+    mapImage: "walk-1-monmouth-to-wonastow-and-lady-grove-wood.jpg",
+    osLink:
+      "https://osmaps.ordnancesurvey.co.uk/route/7653115/Walk-1-Monmouth-to-Wonastow-and-Lady-Grove-Wood",
     intro:
       "After leaving town the walk takes you through fields to Wonastow and then a gradual climb to Lady Grove Woods before returning to town. Views of all three of the Abergavenny mountains on a clear day.",
     content: [
@@ -22,5 +25,7 @@ module.exports = [
     totalClimb: 850,
     intro: "",
     content: [],
+    mapImage: null,
+    osLink: null,
   },
 ]
