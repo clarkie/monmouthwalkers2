@@ -1,17 +1,38 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
+import styled from "styled-components"
 import Layout from "../components/layout"
 import { Container, Row, Col } from "react-bootstrap"
 
 import badge from "../images/badge.png"
 
-const WalkListItem = ({ id, title, slug }) => (
-  <Row>
-    <Link to={slug}>
-      Walk No {id} - {title}
-    </Link>
-  </Row>
+const WalkLink = styled(Link)`
+  color: #963027;
+`
+const WalkSubheader = styled(Row)`
+  color: #666;
+`
+
+const WalkListContainer = styled(Row)`
+  margin-top: 15px;
+  margin-bottom: 15px;
+`
+
+const WalkListItem = ({ id, title, slug, distance, totalClimb, extraInfo }) => (
+  <WalkListContainer>
+    <Container>
+      <Row>
+        <WalkLink to={slug}>
+          Walk No {id} - {title}
+        </WalkLink>
+      </Row>
+      <WalkSubheader>
+        {distance} miles long and a total climb of {totalClimb}ft.{" "}
+        {extraInfo ? extraInfo : null}
+      </WalkSubheader>
+    </Container>
+  </WalkListContainer>
 )
 
 const WalksPage = ({ pageContext }) => {
