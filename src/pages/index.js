@@ -83,12 +83,12 @@ const IndexPage = () => (
         <div class="col-sm-12">
           <h2 class="mt-4">Contact Us</h2>
           <address>
-            <strong>Tom Clarke:</strong>
+            <strong>Tom Clarke: </strong>
             01600 228752
             <br />
           </address>
           <address>
-            <strong>Mike Saunders:</strong>
+            <strong>Mike Saunders: </strong>
             01600 716255
             <br />
           </address>
@@ -276,14 +276,19 @@ const IndexPage = () => (
     {/* <!-- Custom JavaScript for this theme --> */}
     <script src="js/scroll.js "></script>
     <script src="vendor/lightbox/ekko-lightbox.min.js"></script>
-    {/* <script>
+
+    <script
+      dangerouslySetInnerHTML={{
+        __html: `
           $(document).ready(() => {
             $(document).on("click", '[data-toggle="lightbox"]', function (event) {
               event.preventDefault();
               $(this).ekkoLightbox();
             });
           });
-        </script> */}
+        `,
+      }}
+    />
   </Layout>
 )
 

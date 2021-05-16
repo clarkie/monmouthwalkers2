@@ -28,15 +28,19 @@ const Layout = ({ children }) => {
           async
           src="https://www.googletagmanager.com/gtag/js?id=UA-47073255-2"
         ></script>
-        {/* <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag() {
-            dataLayer.push(arguments);
-          }
-          gtag("js", new Date());
-    
-          gtag("config", "UA-47073255-2");
-        </script> */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag() {
+                dataLayer.push(arguments);
+              }
+              gtag("js", new Date());
+        
+              gtag("config", "UA-47073255-2");
+           `,
+          }}
+        />
 
         <meta charset="utf-8" />
         <meta
@@ -119,18 +123,22 @@ const Layout = ({ children }) => {
         <link href="css/main.css" rel="stylesheet" />
 
         <div id="fb-root"></div>
-        {/* <script>
-          (function (d, s, id) {
-            var js,
-              fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src =
-              "https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1&appId=2125053681069339&autoLogAppEvents=1";
-            fjs.parentNode.insertBefore(js, fjs);
-          })(document, "script", "facebook-jssdk");
-        </script> */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function (d, s, id) {
+                var js,
+                  fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src =
+                  "https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1&appId=2125053681069339&autoLogAppEvents=1";
+                fjs.parentNode.insertBefore(js, fjs);
+              })(document, "script", "facebook-jssdk");
+           `,
+          }}
+        />
       </head>
 
       <body id="top">
