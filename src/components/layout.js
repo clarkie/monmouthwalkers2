@@ -8,6 +8,8 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import "bootstrap/dist/css/bootstrap.min.css"
+import { Menu } from "./menu"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -143,43 +145,7 @@ const Layout = ({ children }) => {
 
       <body id="top">
         {/* <!-- Navigation --> */}
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-          <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#top">
-              <img src="/images/welsh_dragon-simple.svg" />
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarResponsive"
-              aria-controls="navbarResponsive"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#contact">
-                    Join
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#gallery">
-                    Gallery
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#faq">
-                    FAQs
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+        <Menu />
 
         {children}
       </body>
