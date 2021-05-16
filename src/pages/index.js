@@ -5,18 +5,23 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import "./header.css"
+
 const IndexPage = () => (
   <Layout>
     {/* <!-- Header with Background Image --> */}
     <header class="header">
-      <div class="background-mask" />
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <h1 class="display-3 text-center text-white mt-4 mb-0">Monmouth</h1>
-            <h3 class="text-center text-white mt-0">
-              Rambling and Hillwalking Club
-            </h3>
+      <div class="background-mask">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 class="display-3 text-center text-white mt-4 mb-0">
+                Monmouth
+              </h1>
+              <h3 class="text-center text-white mt-0">
+                Rambling and Hillwalking Club
+              </h3>
+            </div>
           </div>
         </div>
       </div>
