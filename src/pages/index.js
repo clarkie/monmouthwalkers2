@@ -1,9 +1,6 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 
 import "./header.css"
 
@@ -67,10 +64,10 @@ const IndexPage = () => (
 
         <div class="col-sm-12 col-md-6 mt-4">
           <div class="event">
-            Monmouth Rambling & Hillwalking Club are supporting the
-            <a href="https://walkthewye.com/">Rotary Club Walk the Wye</a>
-            event again this year, to help raise money for breast cancer
-            research at Velindre Hospital, Cardiff.
+            Monmouth Rambling & Hillwalking Club are supporting the{" "}
+            <a href="https://walkthewye.com/">Rotary Club Walk the Wye</a> event
+            again this year, to help raise money for breast cancer research at
+            Velindre Hospital, Cardiff.
           </div>
           <div
             class="fb-group"
@@ -114,6 +111,7 @@ const IndexPage = () => (
                   <img
                     src="/images/thumbnails/group-lake.jpg"
                     class="img-fluid"
+                    alt="group lake"
                   />
                 </a>
                 <a
@@ -122,7 +120,11 @@ const IndexPage = () => (
                   data-gallery="example-gallery"
                   class="mb-4 col-6 col-sm-4"
                 >
-                  <img src="/images/thumbnails/river.jpg" class="img-fluid" />
+                  <img
+                    src="/images/thumbnails/river.jpg"
+                    class="img-fluid"
+                    alt="river"
+                  />
                 </a>
                 <a
                   href="/images/view.jpg"
@@ -130,7 +132,11 @@ const IndexPage = () => (
                   data-gallery="example-gallery"
                   class="mb-4 col-6 col-sm-4"
                 >
-                  <img src="/images/thumbnails/view.jpg" class="img-fluid" />
+                  <img
+                    src="/images/thumbnails/view.jpg"
+                    class="img-fluid"
+                    alt="nice view"
+                  />
                 </a>
                 <a
                   href="/images/scene-2.jpg"
@@ -138,7 +144,11 @@ const IndexPage = () => (
                   data-gallery="example-gallery"
                   class="mb-4 col-6 col-sm-4"
                 >
-                  <img src="/images/thumbnails/scene-2.jpg" class="img-fluid" />
+                  <img
+                    src="/images/thumbnails/scene-2.jpg"
+                    class="img-fluid"
+                    alt="scenic view"
+                  />
                 </a>
                 <a
                   href="/images/scene-4.jpg"
@@ -146,7 +156,11 @@ const IndexPage = () => (
                   data-gallery="example-gallery"
                   class="mb-4 col-6 col-sm-4"
                 >
-                  <img src="/images/thumbnails/scene-4.jpg" class="img-fluid" />
+                  <img
+                    src="/images/thumbnails/scene-4.jpg"
+                    class="img-fluid"
+                    alt="scenic view"
+                  />
                 </a>
                 <a
                   href="/images/scene.jpg"
@@ -154,7 +168,11 @@ const IndexPage = () => (
                   data-gallery="example-gallery"
                   class="mb-4 col-6 col-sm-4"
                 >
-                  <img src="/images/thumbnails/scene.jpg" class="img-fluid" />
+                  <img
+                    src="/images/thumbnails/scene.jpg"
+                    class="img-fluid"
+                    alt="scenic view"
+                  />
                 </a>
                 <a
                   href="/images/waterfall.jpg"
@@ -165,6 +183,7 @@ const IndexPage = () => (
                   <img
                     src="/images/thumbnails/waterfall.jpg"
                     class="img-fluid"
+                    alt="waterfall"
                   />
                 </a>
                 <a
@@ -173,7 +192,11 @@ const IndexPage = () => (
                   data-gallery="example-gallery"
                   class="mb-4 col-6 col-sm-4"
                 >
-                  <img src="/images/thumbnails/group.jpg " class="img-fluid" />
+                  <img
+                    src="/images/thumbnails/group.jpg "
+                    class="img-fluid"
+                    alt="group"
+                  />
                 </a>
               </div>
             </div>

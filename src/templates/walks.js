@@ -48,7 +48,7 @@ const WalksPage = ({ pageContext }) => {
           </Col>
         </Row>
         {walks.map(walk => (
-          <WalkListItem {...walk} />
+          <WalkListItem key={walk.id} {...walk} />
         ))}
       </Container>
     </Layout>
