@@ -47,6 +47,8 @@ module.exports = () => [
     mapImage: "walk-4.png",
     osLink:
       "https://osmaps.ordnancesurvey.co.uk/route/8641616/Walk-4-Wye-river-bank-Upper-Redbrook-Knockalls-Buck-Stone-and-The-Kymin",
+    gpxLink:
+      "Walk 4 - Wye river bank, Upper Redbrook, Knockalls, Buck Stone and The Kymin.gpx",
   },
   {
     id: 5,
@@ -70,6 +72,8 @@ module.exports = () => [
     mapImage: "walk-5.png",
     osLink:
       "https://osmaps.ordnancesurvey.co.uk/route/8530046/GPX-Walk-5-Monmouth-to-Kingswood",
+    gpxLink:
+      "Walk 5 - Wye river bank, iron bridge on Wye, Troy House, Livox Woods, Penallt Old Church,  Upper Red.gpx",
   },
   {
     id: 6,
@@ -88,6 +92,7 @@ module.exports = () => [
     mapImage: "walk-6.png",
     osLink:
       "https://osmaps.ordnancesurvey.co.uk/route/8268852/Walk-6-Monnow-Bridge-Beech-Road-Golf-Club-Osbaston",
+    gpxLink: "Walk 6 Monnow Bridge, Beech Road, Golf Club &amp; Osbaston.gpx",
   },
   {
     id: 7,
@@ -107,6 +112,7 @@ module.exports = () => [
     mapImage: "walk-7.png",
     osLink:
       "https://osmaps.ordnancesurvey.co.uk/route/8642082/Walk-7-Riverside-Walk",
+    gpxLink: "Walk 7 Riverside Walk.gpx",
   },
   {
     id: 8,
@@ -126,6 +132,7 @@ module.exports = () => [
     mapImage: "walk-8.png",
     osLink:
       "https://osmaps.ordnancesurvey.co.uk/route/8642130/Walk-8-The-Kymin",
+    gpxLink: "Walk 8 The Kymin.gpx",
   },
   // {
   //   id: 9,
@@ -167,5 +174,6 @@ module.exports = () => [
     mapImage: "walk-10.png",
     osLink:
       "https://osmaps.ordnancesurvey.co.uk/route/8642216/Walk-10-Monmouth-to-Kingswood",
+    gpxLink: "Walk 10 Monmouth to Kingswood.gpx",
   },
 ]

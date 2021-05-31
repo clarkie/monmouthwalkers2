@@ -20,9 +20,10 @@ export const Menu = () => {
           className="justify-content-end"
         >
           <Nav>
-            <Nav.Link href="#contact">Join</Nav.Link>
-            <Nav.Link href="#gallery">Gallery</Nav.Link>
-            <Nav.Link href="#faq">FAQs</Nav.Link>
+            <Nav.Link href="/#contact">Join</Nav.Link>
+            <Nav.Link href="/walks">Walks</Nav.Link>
+            <Nav.Link href="/#gallery">Gallery</Nav.Link>
+            <Nav.Link href="/#faq">FAQs</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
