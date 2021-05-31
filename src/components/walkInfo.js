@@ -6,9 +6,4 @@ const WalkSubheader = styled(Row)`
   color: #666;
 `
 
-export const WalkInfo = ({ distance, totalClimb, extraInfo }) => (
-  <WalkSubheader>
-    {distance} miles long and a total climb of {totalClimb}ft.{" "}
-    {extraInfo ? extraInfo : null}
-  </WalkSubheader>
-)
+export const WalkInfo = ({ info }) => <WalkSubheader>{info}</WalkSubheader>

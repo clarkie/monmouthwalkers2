@@ -37,17 +37,7 @@ const MapImageMask = styled.div`
 
 const WalkPage = props => {
   const { pageContext } = props
-  const {
-    id,
-    title,
-    intro,
-    content,
-    distance,
-    totalClimb,
-    extraInfo,
-    mapImage,
-    osLink,
-  } = pageContext
+  const { id, title, intro, content, info, mapImage, osLink } = pageContext
   console.log("pageContext", pageContext)
 
   return (
@@ -58,7 +48,7 @@ const WalkPage = props => {
             Walk No. {id} - {title}
           </h2>
         </Row>
-        <WalkInfo {...{ distance, totalClimb, extraInfo }} />
+        <WalkInfo {...{ info }} />
         <Row className="my-3">{intro}</Row>
         <MapRow>
           <MapImage src={`/images/walks/${mapImage}`}>

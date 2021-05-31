@@ -7,10 +7,11 @@
 // You can delete this file if you're not using it
 
 const fs = require(`fs`)
-const walks = require("./content/walks")()
+const getWalks = require("./content/walks")
 
 exports.createPages = ({ actions }) => {
   const { createPage } = actions
+  const walks = getWalks()
   //   const walks = yaml.safeLoad(fs.readFileSync(`./content/walks.json`, `utf-8`))
 
   console.log({ walks })
