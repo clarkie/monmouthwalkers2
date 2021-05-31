@@ -37,7 +37,16 @@ const MapImageMask = styled.div`
 
 const WalkPage = props => {
   const { pageContext } = props
-  const { id, title, intro, content, info, mapImage, osLink } = pageContext
+  const {
+    id,
+    title,
+    intro,
+    content,
+    info,
+    mapImage,
+    osLink,
+    gpxLink,
+  } = pageContext
   console.log("pageContext", pageContext)
 
   return (
@@ -58,6 +67,9 @@ const WalkPage = props => {
         <Row>
           <a href={osLink} target="_blank" rel="noreferrer">
             [OS Map]
+          </a>
+          <a href={`/gpx/${gpxLink}`} target="_blank" rel="noreferrer">
+            [GPX]
           </a>
         </Row>
         {content.map((contentItem, index) => (
