@@ -44,8 +44,9 @@ module.exports = () => [
       "Returning to the north of the Kymin, immediately after passing a wooden outbuilding, follow the stepped path steeply down though Beaulieu Wood, keeping right when this path divides, and then again when it reaches the boundary of a house and garden. Follow the boundary down to a gate onto a private road. Turn right on this road, then after it bends to the left, fork right onto a public footpath between open fields. When this regains the woodland, turn left onto a track – which is Offa’s Dyke path – and follow this down through Garth Wood to reach the Kymin Road. ",
       "Turn right on this road, and after 500m where it bends right, continue straight ahead along the private road for about 100m until the Offa’s Dyke path veers off to the right. Follow this path down until it converges with the A4136. Follow this road as it bears right in front of the Mayhill Hotel and then over a roundabout and the Wye Bridge before using the underpass to cross the A40. Carry on to the end of Wyebridge St and turn left then right into St Mary’s St. At the top of St Mary’s St turn left into Church St and follow this back to Agincourt Square.",
     ],
-    mapImage: null,
-    osLink: null,
+    mapImage: "walk-4.png",
+    osLink:
+      "https://osmaps.ordnancesurvey.co.uk/route/8641616/Walk-4-Wye-river-bank-Upper-Redbrook-Knockalls-Buck-Stone-and-The-Kymin",
   },
   {
     id: 5,
@@ -66,8 +67,9 @@ module.exports = () => [
       "About 500m after leaving the A466, follow the minor road forking left. The steep bank to the left carries the remains of both the tramway and a later railway route, including tunnels, opened in 1883 – but all were abandoned by 1917. The road crosses the former tramway shortly before it bends to the left, then immediately after the bend it crosses the portal of a short railway tunnel – now submerged in dense brambles, though its other end emerges in a well landscaped garden over to the right. Continue up the steepening lane to Jamie’s Farm, where the slope slackens somewhat but the surface becomes much rougher, before reaching the end of the hedge on the left. Here the lane becomes a ridgeway, part of Offa’s Dyke path, offering increasingly spectacular panoramic views as it progressively gains height,back over the Wye valley towards Llandogo and Tintern, to the right towards Newland and Bunjups Wood concealing Staunton and the Buck Stone, and to the left, across the Wye valley, to Livox Wood and Penallt, and beyond to Blorenge and the Sugar Loaf. The lane re-enters hedges on both sides shortly before reaching the crest by Redbrook Equestrian’s stables at Cockshoot Ash Barn. This is some 175m (574 feet) above sea level and 155m above the bridge at Redbrook. Leaving the buildings to the left, the track becomes a narrow footpath passing a gate on the right giving access to side paths toward Beaulieu Ridge and the Kymin. Continue straight on into woodland by Harper’s Grove. The footpath gradually descends, often wet and very rough under foot, but clearly long-established as a route – Wyesham Lane – between Wyesham and Redbrook. Shortly after passing an abandoned quarry on the right, the path becomes a metalled lane at the entrance to Sky Farm. Follow the lane down past the house on the right, pausing to admire its spectacular view over Wyesham towards Livox wood, with the Trothy valley beyond leading towards Raglan and Abergavenny beyond – as well as the snatch of poetry incised in slate on its terrace wall. ",
       "On leaving the woods, the lane bends right then left before reaching a T-junction with Wyesham Road. Turn right and follow the road past Kymin View primary school until, immediately before reaching St James’s church, turn left down Wyesham Avenue. Just before reaching the main A466, turn left into the small Church Farm cul-de-sac. At its end climb the ramp with disused stock pens on the right, and follow the path between the estate fence and an extensive bramble patch. This is the course of the former Wye Valley Railway, now discernible only by its raised course extending over the fields beyond the gate ahead. Turn right at the end of the bramble patch, cross the A466 and the field opposite. Follow the footpath passing to the right of the sewage treatment works and down the steps to meet the Wye Valley walk along the river bank. Turn right and follow the path skirting the bank, passing under the monumental stonework of a now-dismantled railway bridge. Close to the confluence between the Wye and the Monnow approaching from the west, mount the same steps leading to the trackbed emerging from a disused iron railway bridge as on the outward leg. However now turn right and follow the track toward the former Monmouth May Hill station. Descend the ramp to the right to join the pavement along the A466; turn left to follow the road and left again at the roundabout. Cross the Wye Bridge before using the underpass to cross the A40. Carry on to the end of Wyebridge St and turn left then right into St Mary’s St. At the top of St Mary’s St turn left into Church St and follow this back to Agincourt Square.",
     ],
-    mapImage: null,
-    osLink: null,
+    mapImage: "walk-5.png",
+    osLink:
+      "https://osmaps.ordnancesurvey.co.uk/route/8530046/GPX-Walk-5-Monmouth-to-Kingswood",
   },
   {
     id: 6,
@@ -83,8 +85,9 @@ module.exports = () => [
       "Follow path past the cottage and turn left through gate at Ty-Ceffyl. Now follow the path which is a very gradual climb up through 3 fields, over several stiles, keeping close to the hedge on your right  adjacent to the Golf Club Lane. Pass Monmouth Golf Club on your right. There are fantastic  views in all directions. At the top of the field, ignore a stile on the right  and follow the waymark to your left then diagonally  down to your left where a stile will be found in the corner of the field.",
       "Here a path leads onto Hereford Road, next to Royal Oak Pub. Turn left and then right at No. 77 onto Oakfield Road. Again lovely views to Welsh mountains.  This leads left onto Agincourt Road, right onto Highfield Road, left onto Prospect Road which leads down to a very steep Chaucer Way. Turn right  at the bottom of Chaucer Way and continue to junction of St Mary’s Road, then left  down through  field onto Forge Road. Then as you turn left,  looking to your right you will see The Manor on the Monnow with two very large lions outside. Walk past Osbaston Infants School on left with River Monnow on your right. Bear right at Junction with main road and next right to cross Inglis Bridge over River Monnow. This is Vauxhall Fields.  Go straight on to cross roads, take left on stony track and cross River Monnow again.  This leads past the back of Iceland store and back to Shire Hall in Agincourt Square.",
     ],
-    mapImage: null,
-    osLink: null,
+    mapImage: "walk-6.png",
+    osLink:
+      "https://osmaps.ordnancesurvey.co.uk/route/8268852/Walk-6-Monnow-Bridge-Beech-Road-Golf-Club-Osbaston",
   },
   {
     id: 7,
@@ -101,8 +104,9 @@ module.exports = () => [
       "Keep the allotments on your left. Before you turn right to go back under the dual carriageway, take a moment to look at the notice board on your left.  The board tells of the elephant who escaped from the fair and had a dip in the river before being caught! In a separate elephant-related incident, local people remember the famous comedian and singer Harry Secombe falling from an elephant during a visit to the town many years ago. Fortunately both Harry and the elephant escaped injury!",
       "Go under the dual carriageway and turn right up the second steps and then down more steps to walk past tennis courts on your left.  St Mary’s Church spire can be seen as you enter the next field. Continue straight on this path, past the playing fields, to reach a street. Go straight ahead and, shortly after the street bears left, turn right at the Rugby Club and Police Station. Turn left  into Glendower Street car park.  At the top left hand corner of the car park, go under the decorative arch and head for two old streetlamps. Through the small cobbled courtyard you’ll come back to the Shire Hall and Agincourt Square.",
     ],
-    mapImage: null,
-    osLink: null,
+    mapImage: "walk-7.png",
+    osLink:
+      "https://osmaps.ordnancesurvey.co.uk/route/8642082/Walk-7-Riverside-Walk",
   },
   {
     id: 8,
@@ -119,8 +123,9 @@ module.exports = () => [
       "Returning to the Roundhouse, drop down onto the old bowling green and head for the left hand side of the stone cottage where a finger post at a gate points to Staunton Road. Crossing the field you have views of the densely wooded hills of the Forest of Dean. Carrying on downhill  through a second gateway from where you see the third gate which brings you to a gate at a stoney track. Turn left here and after ¼ mile take the path off to the right. Ignore paths off to the right and left to reach a gate on the left where you rejoin the path you came up. Carry on downhill through the woods, through a gate and downhill on the road. Where the road turns sharply right go straight ahead on the private road with the orchard on your right. ",
       "Take the narrow path straight ahead downhill to the main road. Heading left, take the road back across two small roundabouts and the Wye Bridge. Use the underpass under the A40 and rejoin Wyebridge St before turning left at the Queens Head and immediately right into St Mary’s Street. At the end of St Mary’s St take Church St back to Agincourt Square.",
     ],
-    mapImage: null,
-    osLink: null,
+    mapImage: "walk-8.png",
+    osLink:
+      "https://osmaps.ordnancesurvey.co.uk/route/8642130/Walk-8-The-Kymin",
   },
   // {
   //   id: 9,
@@ -159,7 +164,8 @@ module.exports = () => [
       "Proceed along the road, until it bends left and the footpath re-appears. Cross two estate roads and proceed through a gate over a footbridge and follow the path as it bears right across a field and then becomes narrower. Cross a road and keep following the narrow path as it passes light industry and houses.",
       "Follow the tarmac Williams Field Lane, cross Wonastow Road at the zebra crossing and proceed forward to the medieval Clawdd-du Bridge. Turn left over the bridge and return to Drybridge St, cross the road to the Old Monnow Bridge and follow Monnow Street back the Shire Hall.",
     ],
-    mapImage: null,
-    osLink: null,
+    mapImage: "walk-10.png",
+    osLink:
+      "https://osmaps.ordnancesurvey.co.uk/route/8642216/Walk-10-Monmouth-to-Kingswood",
   },
 ]

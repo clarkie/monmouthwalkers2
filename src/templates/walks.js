@@ -17,7 +17,7 @@ const WalkListContainer = styled(Row)`
   margin-bottom: 15px;
 `
 
-const WalkListItem = ({ id, title, slug, distance, totalClimb, extraInfo }) => (
+const WalkListItem = ({ id, title, slug, info }) => (
   <WalkListContainer>
     <Container>
       <Row>
@@ -25,7 +25,7 @@ const WalkListItem = ({ id, title, slug, distance, totalClimb, extraInfo }) => (
           Walk No {id} - {title}
         </WalkLink>
       </Row>
-      <WalkInfo {...{ distance, totalClimb, extraInfo }} />
+      <WalkInfo {...{ info }} />
     </Container>
   </WalkListContainer>
 )
